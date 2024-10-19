@@ -6,8 +6,8 @@ import {
     FaPhoneAlt,
     FaUser,
 } from "react-icons/fa";
-import Header from "../Components/contactus/header";
-import Footer from "../Components/landing page/Footer";
+import Header from "../Components/header";
+import Footer from "../Components/footer";
 
 const ContactUs = () => {
   const [selectedOption, setSelectedOption] = useState("");

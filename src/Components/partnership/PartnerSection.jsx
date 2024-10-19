@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 const partners = [
   { id: 1, image: "/src/Images/partnership/ongrid.png" },
   { id: 2, image: "/src/Images/partnership/PocketHRMS.png" },
-  { id: 3, image: "/src/Images/partnership/goodmindlogo.webp" },
+  { id: 3, image: "/src/Images/partnership/psyshell.png" },
   { id: 4, image: "/src/Images/partnership/screenit.png" }, // Add more partners as needed
 ];
 

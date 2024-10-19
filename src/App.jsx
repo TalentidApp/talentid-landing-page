@@ -5,6 +5,8 @@ import Contact from "./Pages/contactus";
 import Partnership from "./Pages/partnership";
 import Pricing from "./Pages/pricing";
 import Landing from "./pages/landingPage";
+import Events from "./Pages/events";
+import PrivacyPolicy from "./Pages/privacy";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -27,6 +29,14 @@ const App = () => {
     {
       path: "/pricing",
       element: <Pricing />,
+    },
+    {
+      path: "/events",
+      element: <Events />,
+    },
+    {
+      path: "/privacy-policy",
+      element: <PrivacyPolicy />,
     },
   ]);
 

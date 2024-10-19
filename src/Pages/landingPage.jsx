@@ -1,11 +1,11 @@
 import {
   Customers,
-  Footer,
   Form,
-  Header,
   Section,
   Testimonals,
 } from "../Components/landing page";
+import Footer from "../Components/footer";
+import Header from "../Components/header";
 
 const Home = () => {
   return (
