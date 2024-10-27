@@ -7,7 +7,7 @@ function Privacy() {
     <>
       <Header />
       <div className="max-w-screen-lg mx-auto px-8 py-12">
-        <h1 className="text-5xl font-bold text-center mb-12">Privacy Policy</h1>
+        <h1 className="text-5xl font-bold text-center mb-12">Privacy Policy***</h1>
 
         <section className="mb-8">
           <p className="text-sm md:text-base lg:text-lg">
