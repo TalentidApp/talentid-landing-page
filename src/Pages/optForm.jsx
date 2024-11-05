@@ -4,6 +4,9 @@ import { useNavigate } from 'react-router-dom';
 import toast from 'react-hot-toast';
 
 function OptOutForm() {
+
+    const apiUrl = import.meta.env.VITE_API_URL;
+
     const [form, setForm] = useState({
         firstName: '',
         lastName: '',
@@ -51,7 +54,7 @@ function OptOutForm() {
         }
 
         try {
-            const response = await axios.post("http://localhost:4000/api/users/optForm", form);
+            const response = await axios.post(`${apiUrl}/optForm`, form);
             console.log(response.data);
 
             setForm({

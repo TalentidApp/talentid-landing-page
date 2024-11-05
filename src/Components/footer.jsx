@@ -91,6 +91,16 @@ const Footer = () => {
                   Privacy Policy 
                 </Link>
               </li>
+
+              <li className="mb-1">
+                <Link
+                  to="/optform"
+                  className="text-gray-400 hover:text-white"
+                >
+                  opt form 
+                </Link>
+              </li>
+
               <li className="mb-1">
                 <a href="#" className="text-gray-400 hover:text-white">
                   Refund policy
