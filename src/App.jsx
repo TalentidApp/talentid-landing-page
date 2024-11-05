@@ -7,6 +7,7 @@ import Pricing from "./Pages/pricing";
 import Landing from "./pages/landingPage";
 import Events from "./Pages/events";
 import PrivacyPolicy from "./Pages/privacy";
+import OptOutForm from "./Pages/optForm";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -17,6 +18,11 @@ const App = () => {
     {
       path: "/aboutus",
       element: <About />,
+    },
+    ,{
+
+      path:"optform",
+      element:<OptOutForm></OptOutForm>
     },
     {
       path: "/contactus",
